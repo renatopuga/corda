@@ -1,5 +1,16 @@
 # c.rda (corda foundation)
 
+```bash
+ __________________________
+< Tô com a Corda toda! LOL >
+ --------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+```
+
 Corda é um projeto DLT da empresa R3 e nasceu de um consórcio privado entre +70 (2015) bancos, mais tarde na v1.0 (2017) o projeto se torna open source.
 
 # Corda Open vs Enterprise 
