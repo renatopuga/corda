@@ -67,3 +67,7 @@ Após digitar `dashboard` deve aparecer:
 
 ![GitHub Logo](fig02.png)
 
+Clique no Botão Azul `Add Node` e adcionei como no Exemplo:
+
+![GitHub Logo](fig03.png)
+
