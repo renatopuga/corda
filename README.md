@@ -75,4 +75,7 @@ Digite `dashboard` novamente e depois clique no botão `Lauch Explorer`
 
 ![GitHub Logo](fig04.png)
 
+Suba mais um node e veja que o consumo de recursos (principalmente memória) começa a subir.
+
+
 
