@@ -4,7 +4,6 @@ Corda é um projeto DLT da empresa R3 e nasceu de um consórcio privado entre +7
 
 # Corda Open vs Enterprise 
 
- | 
 |Open|Enterprise|
 |---|---|
 |Sem suporte uso da comunidade|Suporte 24x7 equipe R3|
