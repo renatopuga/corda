@@ -59,6 +59,11 @@ Node for "Notary" started up and registered in 40.15 sec
 Welcome to the Corda interactive shell.
 Useful commands include 'help' to see what is available, and 'bye' to shut down the node.
 
-Thu Dec 05 21:21:20 BRST 2019>>> 
+Thu Dec 05 21:21:20 BRST 2019>>> dashboard
 
 ```
+
+Após digitar `dashboard` deve aparecer:
+
+![GitHub Logo](fig02.png)
+
