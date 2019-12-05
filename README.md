@@ -18,4 +18,19 @@ Corda é um projeto DLT da empresa R3 e nasceu de um consórcio privado entre +7
 3. Não e criptomoeda
 4. SmartContract
 
+# Na Virtual Machine...
+
+Abra um terminal novo:
+
+```bash
+# volte para seu home
+
+# acesse o diretorio corda
+cd ~/corda/tools/demobench/build/install/demobench/
+
+# abrir o frontend
+bin/demobench
+```
+
+
 
