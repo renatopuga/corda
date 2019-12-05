@@ -71,3 +71,8 @@ Clique no Botão Azul `Add Node` e adcionei como no Exemplo:
 
 ![GitHub Logo](fig03.png)
 
+Digite `dashboard` novamente e depois clique no botão `Lauch Explorer`
+
+![GitHub Logo](fig04.png)
+
+
