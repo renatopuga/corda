@@ -32,5 +32,6 @@ cd ~/corda/tools/demobench/build/install/demobench/
 bin/demobench
 ```
 
+![GitHub Logo](fig01.png)
 
 
