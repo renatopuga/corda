@@ -91,7 +91,7 @@ Suba mais um node e veja que o consumo de recursos (principalmente memória) com
 
 Mandando dinheiro do `Central Bank` para outros bancos (Casa de Papel)
 
-![GitHub Logo](fig07.png)
+![GitHub Logo](fig05.png)
 
 ![GitHub Logo](fig06.png)
 
