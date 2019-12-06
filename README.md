@@ -89,4 +89,11 @@ Digite `dashboard` novamente e depois clique no botão `Lauch Explorer`
 Suba mais um node e veja que o consumo de recursos (principalmente memória) começa a subir.
 
 
+Mandando dinheiro do `Central Bank` para outros bancos (Casa de Papel)
+
+![GitHub Logo](fig07.png)
+
+![GitHub Logo](fig06.png)
+
+![GitHub Logo](fig07.png)
 
