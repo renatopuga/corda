@@ -170,6 +170,7 @@ BUILD SUCCESSFUL in 2m 29s
 cd build/nodes
 
 # subir o Seller
+cd Seller
 java -jar corda.jar 
 
    ______               __
@@ -206,3 +207,22 @@ java -jar corda.jar
 
 ```
 
+## Executar o flow no terminal Seller 
+
+```bash
+
+Sat Feb 08 11:23:01 BRST 2020>>> flow start SendAttachment receiver: Buyer
+Working Directory = /home/aluno/corda/samples/sendfile-Attachments/build/nodes/Seller
+
+ ✓ Starting
+      Generating transaction
+ ✓ PROCESS transaction
+ ✓ Obtaining notary signature and recording transaction.
+          Requesting signature by notary service
+              Requesting signature by Notary service
+              Validating response from Notary service
+     ✓ Broadcasting transaction to participants
+▶︎ Done
+Flow completed with result: SignedTransaction(id=9FAD80FD680FA50D566043BABF54A07B8383D9666DD1D77BD28FF7D5528F7986)
+
+```
