@@ -97,3 +97,30 @@ Mandando dinheiro do `Central Bank` para outros bancos (Casa de Papel)
 
 ![GitHub Logo](fig07.png)
 
+
+### Na VM
+
+```bash
+#voltar para o home
+cd 
+
+# entrar na pasta corda
+cd corda
+
+# clonar o repositorio 
+git clone https://github.com/corda/samples.git
+
+# entrar no diretorio samples
+cd samples
+
+# listar arquivos
+ls 
+build.gradle  gradle             gradlew.bat  README.md            test.zip
+config        gradle.properties  graph.png    repositories.gradle  TRADEMARK
+contracts     gradlew            LICENCE      settings.gradle      workflows
+
+
+
+
+```
+
