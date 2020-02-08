@@ -120,7 +120,89 @@ config        gradle.properties  graph.png    repositories.gradle  TRADEMARK
 contracts     gradlew            LICENCE      settings.gradle      workflows
 
 
+# deploy and run the nodes by?
+./gradlew deployNodes
+Starting a Gradle Daemon, 1 busy and 3 incompatible Daemons could not be reused, use --status for details
 
+> Task :deployNodes
+Running Cordform task
+Deleting /home/aluno/corda/samples/sendfile-Attachments/build/nodes
+Bootstrapping local test network in /home/aluno/corda/samples/sendfile-Attachments/build/nodes
+Generating node directory for Buyer
+Generating node directory for Notary
+Generating node directory for Seller
+Waiting for all nodes to generate their node-info files...
+<============-> 95% EXECUTING [2m 3s]
+Distributing all node-info files to all nodes
+Loading existing network parameters... none found
+Gathering notary identities
+Generating contract implementations whitelist
+New NetworkParameters {
+      minimumPlatformVersion=5
+      notaries=[NotaryInfo(identity=O=Notary, L=London, C=GB, validating=false)]
+      maxMessageSize=10485760
+      maxTransactionSize=524288000
+      whitelistedContractImplementations {
+        
+      }
+      eventHorizon=PT720H
+      packageOwnership {
+        
+      }
+      modifiedTime=2020-02-08T13:18:25.344Z
+      epoch=1
+  }
+Bootstrapping complete!
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 2m 29s
+14 actionable tasks: 14 executed
+
+```
+
+## Subir um node (um por vez)
+
+```bash
+# entrar no diretorio do build/nodes
+cd build/nodes
+
+# subir o Seller
+java -jar corda.jar 
+
+   ______               __
+  / ____/     _________/ /___ _
+ / /     __  / ___/ __  / __ `/         Computer science and finance together.
+/ /___  /_/ / /  / /_/ / /_/ /          You should see our crazy Christmas parties!
+\____/     /_/   \__,_/\__,_/
+
+--- Corda Open Source 4.3 (d679784) -------------------------------------------------------------
+
+
+Logs can be found in                    : /home/aluno/corda/samples/sendfile-Attachments/build/nodes/Seller/logs
+! ATTENTION: This node is running in development mode!  This is not safe for production deployment.
+Advertised P2P messaging addresses      : localhost:10008
+RPC connection address                  : localhost:10009
+RPC admin connection address            : localhost:10049
+Loaded 2 CorDapp(s)                     : Workflow CorDapp: sendfile Flows version 1 by vendor Corda Open Source with licence Apache License, Version 2.0, Contract CorDapp: sendfile Contract version 1 by vendor Corda Open Source with licence Apache License, Version 2.0
+Node for "Seller" started up and registered in 26.32 sec
+
+
+Welcome to the Corda interactive shell.
+Useful commands include 'help' to see what is available, and 'bye' to shut down the node.
+
+Sat Feb 08 11:22:42 BRST 2020>>>
+
+# Buyer
+cd ../Buyer
+java -jar corda.jar 
+
+
+# Nodary
+cd ../Nodary
+java -jar corda.jar 
 
 ```
 
