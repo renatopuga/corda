@@ -226,3 +226,17 @@ Working Directory = /home/aluno/corda/samples/sendfile-Attachments/build/nodes/S
 Flow completed with result: SignedTransaction(id=9FAD80FD680FA50D566043BABF54A07B8383D9666DD1D77BD28FF7D5528F7986)
 
 ```
+
+## Executar o flow no terminal Buyer
+
+```bash
+
+ flow start DownloadAttachment sender: Seller, path: file.zip
+
+ ✓ Starting
+ ✓ Retrieving attachment ID
+ ✓ Download attachment
+▶︎ Done
+Flow completed with result: Downloaded file from Seller to file.zip
+
+```
