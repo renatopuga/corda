@@ -240,3 +240,14 @@ Flow completed with result: SignedTransaction(id=9FAD80FD680FA50D566043BABF54A07
 Flow completed with result: Downloaded file from Seller to file.zip
 
 ```
+
+## IDEA
+
+Abra outro aba no terminal e execute:
+
+```bash
+cd ~/idea-IC-192.7142.36/bin
+
+# pesado
+. idea.sh 
+```
